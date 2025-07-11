@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_anGsQFYSEfCnBuRpBA1U1A" label="Restaurant_and_Food_Inspections" description="" language="java" technicalLabel="RESTAURANT_AND_FOOD_INSPECTIONS" local="true" author="_anGsQVYSEfCnBuRpBA1U1A" productVersion="Talend Cloud Data Fabric-8.0.1.20241016_1624-patch" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_an4IUFYSEfCnBuRpBA1U1A" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_anGsQVYSEfCnBuRpBA1U1A" login="katta.sai@naveenkuragayalanortheastern.edunfr"/>
+</xmi:XMI>

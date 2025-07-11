@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query />
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table>`initial_stg_chicago`</Table>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">1fbe0320-19d1-48c4-b90d-3bb420be4381</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:damg7370 — mysql
+Table=`initial_stg_chicago`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="DBA_Name" size="100" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="AKA_Name" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="License_no" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Facility_Type" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Risk_Level" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Risk_Category" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Address" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="City" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="State" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Zip" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Inspection_Date" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Inspection_Type" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Results" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Latitude" source="File: `initial_stg_chicago`" type="Double" />
+            <Field name="Longitude" source="File: `initial_stg_chicago`" type="Double" />
+            <Field name="Location" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Violation_Category_ID" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Violation_Category" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Violation_Comments" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Violation_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Result_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Risk_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Total_Violation_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Inspection_Result" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="DateTime_Out" size="19" source="File: `initial_stg_chicago`" type="DateTime" />
+            <Field name="File_Name" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="User_Name" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Load_Date" size="65535" source="File: `initial_stg_chicago`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query />
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table>`initial_stg_dallas`</Table>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">1fbe0320-19d1-48c4-b90d-3bb420be4381</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:damg7370 — mysql
+Table=`initial_stg_dallas`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="InspectionId_Created" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Restaurant_Name" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Type" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Date" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Score" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Street_Number" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Name" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Direction" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Type" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Unit" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Address" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="City" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="State" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Zip_Code" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Inspection_Month" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Year" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Latitude" source="File: `initial_stg_dallas`" type="Double" />
+            <Field name="Longitude" source="File: `initial_stg_dallas`" type="Double" />
+            <Field name="Violation_Category_Id" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Violation_Category" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Violation_Others" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Violation_Point" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Facility_Type" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Sum_Violation_Point" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Risk_Category" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Result" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="DateTime_Out" size="19" source="File: `initial_stg_dallas`" type="DateTime" />
+            <Field name="File_Name" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="User_Name" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Load_Date" size="65535" source="File: `initial_stg_dallas`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DBA_Name" selected="True" />
+            <Field field="AKA_Name" selected="True" />
+            <Field field="License_no" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Violation_Comments" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="File_Name" selected="True" />
+            <Field field="User_Name" selected="True" />
+            <Field field="Load_Date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="DBA_Name" size="79" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="AKA_Name" size="79" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="License_no" size="7" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Facility_Type" size="47" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Risk_Level" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Risk_Category" size="6" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Address" size="51" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="City" size="20" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="State" size="2" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Zip" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Inspection_Date" size="10" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Inspection_Type" size="41" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Results" size="20" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Latitude" source="File: `initial_stg_chicago`" type="Double" />
+            <Field name="Longitude" source="File: `initial_stg_chicago`" type="Double" />
+            <Field name="Location" size="40" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Violation_Category_ID" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Violation_Category" size="134" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Violation_Comments" size="5422" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="Violation_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Result_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Risk_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Total_Violation_Score" source="File: `initial_stg_chicago`" type="Int64" />
+            <Field name="Inspection_Result" size="17" source="File: `initial_stg_chicago`" type="V_String" />
+            <Field name="DateTime_Out" size="19" source="File: `initial_stg_chicago`" type="DateTime" />
+            <Field name="File_Name" size="25" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="User_Name" size="14" source="File: `initial_stg_chicago`" type="String" />
+            <Field name="Load_Date" size="19" source="File: `initial_stg_chicago`" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="InspectionId_Created" selected="True" />
+            <Field field="Restaurant_Name" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Street_Number" selected="True" />
+            <Field field="Street_Name" selected="True" />
+            <Field field="Street_Direction" selected="True" />
+            <Field field="Street_Type" selected="True" />
+            <Field field="Street_Unit" selected="True" />
+            <Field field="Street_Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection_Month" selected="True" />
+            <Field field="Inspection_Year" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Violation_Others" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="File_Name" selected="True" />
+            <Field field="User_Name" selected="True" />
+            <Field field="Load_Date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="InspectionId_Created" size="9" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Restaurant_Name" size="65" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Inspection_Type" size="9" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Inspection_Date" size="10" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Inspection_Score" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Street_Number" source="File: `initial_stg_dallas`" type="Int32" />
+            <Field name="Street_Name" size="25" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Street_Direction" size="2" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Street_Type" size="4" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Street_Unit" size="5" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Street_Address" size="37" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="City" size="6" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="State" size="2" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Zip_Code" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Inspection_Month" size="8" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Inspection_Year" size="6" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Latitude" source="File: `initial_stg_dallas`" type="Double" />
+            <Field name="Longitude" source="File: `initial_stg_dallas`" type="Double" />
+            <Field name="Violation_Category_Id" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Violation_Category" size="96" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Violation_Others" size="2757" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="Violation_Point" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Facility_Type" size="9" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Sum_Violation_Point" source="File: `initial_stg_dallas`" type="Int64" />
+            <Field name="Risk_Category" size="6" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Inspection_Result" size="17" source="File: `initial_stg_dallas`" type="V_String" />
+            <Field name="DateTime_Out" size="19" source="File: `initial_stg_dallas`" type="DateTime" />
+            <Field name="File_Name" size="85" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="User_Name" size="14" source="File: `initial_stg_dallas`" type="String" />
+            <Field name="Load_Date" size="19" source="File: `initial_stg_dallas`" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection_ID" selected="True" type="V_WString" size="16777216" />
+            <SelectField field="DBA_Name" selected="True" rename="Name" size="16777216" />
+            <SelectField field="Facility_Type" selected="True" />
+            <SelectField field="Risk_Category" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" rename="Zip_Code" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="Inspection_Type" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Violation_Category_ID" selected="True" rename="Violation_Category_Id" />
+            <SelectField field="Violation_Category" selected="True" />
+            <SelectField field="Violation_Score" selected="True" />
+            <SelectField field="Total_Violation_Score" selected="True" />
+            <SelectField field="Inspection_Result" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionId_Created" selected="True" rename="Inspection_ID" />
+            <SelectField field="Restaurant_Name" selected="True" rename="Name" />
+            <SelectField field="Inspection_Type" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" type="V_WString" size="20" />
+            <SelectField field="Inspection_Score" selected="True" rename="Total_Violation_Score" />
+            <SelectField field="Street_Address" selected="True" rename="Address" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip_Code" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Violation_Category_Id" selected="True" />
+            <SelectField field="Violation_Category" selected="True" />
+            <SelectField field="Facility_Type" selected="True" />
+            <SelectField field="Sum_Violation_Point" selected="True" rename="Violation_Score" />
+            <SelectField field="Risk_Category" selected="True" />
+            <SelectField field="Inspection_Result" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="438" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIPAV~1\AppData\Local\Temp\Alteryx\Engine_21096_20a36930175042fe8643d471b1a6b621_\Engine_21096_a5065ffcfcace3408b9f2b3bf192645e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>stg_final_food_inspections</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">1fbe0320-19d1-48c4-b90d-3bb420be4381</Connection>
+            <PostSQL />
+            <TransactionSize>1000000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:damg7370 — mysql
+Table=stg_final_food_inspections</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Final_Stg_loading</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="59a2ef90-5711-4814-bde5-3fc83b02524b" />
+      <Telemetry>
+        <PreviousWorkflowId value="44191b58-9914-4946-9095-671fa94040a7" />
+        <OriginWorkflowId value="44191b58-9914-4946-9095-671fa94040a7" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
