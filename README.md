@@ -86,7 +86,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Executed the scripts in Snowflake to create the dimensional schema.
 
   #### Dimensional Model Prepared:
-  ![image](Dimensional_Modeling/Dimensional Model.png
+  ![image](Dimensional_Modeling/Dimensional_Model.png
 )
 
 
