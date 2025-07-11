@@ -116,10 +116,10 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Published dashboards to the cloud for accessibility and real-time monitoring.
 
   #### Power BI:
-  ![image](Screenshot 2025-07-11 125540.png
+  ![image](Dashboard_1.png
 )
 
-  ![image](Screenshot 2025-07-11 125637.png
+  ![image](Dashboard2.png
 )
 
 
