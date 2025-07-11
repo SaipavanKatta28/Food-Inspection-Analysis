@@ -74,7 +74,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 )
 
   #### Pipeline created for Chicago:
-  ![image](Data_Transformation/Chicago_Staging.png)
+  ![image](Data_Transformation/Chicago_Staging.png )
 
   #### Pipeline created to combine both datasets into one:
   ![image](Data_Transformation/image.png)
