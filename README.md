@@ -78,8 +78,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 )
 
   #### Pipeline created to combine both datasets into one:
-  ![image](<img width="928" height="462" alt="image" src="https://github.com/user-attachments/assets/dede9c33-86a2-4cb9-85ba-edcd95743e09" />
-)
+  ![image](Data_Transformation/image.png)
 
 
 ### Step 5: Dimensional Modeling in ER Studio
