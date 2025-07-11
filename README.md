@@ -70,11 +70,11 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Loaded the transformed data into a final staging table in MySQL DB, ensuring readiness for dimensional modeling.
 
   #### Pipeline created for Dallas:
-  ![image](<img width="1163" height="689" alt="image" src="https://github.com/user-attachments/assets/cc42a4b0-2150-4cfc-b467-83befe6ed939" />
+  ![image](Data_Transformation/Dallas_Staging.png
 )
 
   #### Pipeline created for Chicago:
-  ![image](<img width="1163" height="578" alt="image" src="https://github.com/user-attachments/assets/a923bff4-6b3d-420e-b00d-896004f2f2b6" />
+  ![image](Data_Transformation/Chicago Staging.png
 )
 
   #### Pipeline created to combine both datasets into one:
@@ -87,7 +87,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Executed the scripts in Snowflake to create the dimensional schema.
 
   #### Dimensional Model Prepared:
-  ![image](<img width="1098" height="632" alt="image" src="https://github.com/user-attachments/assets/b2a20915-5c2b-4929-b0aa-8f06f616c585" />
+  ![image](Dimensional_Modeling/Dimensional Model.png
 )
 
 
@@ -95,17 +95,17 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Loaded data into the dimensional model in MySQL using Talend.
 - Added audit columns to ensure data traceability.
 
-  ![image](<img width="1163" height="230" alt="image" src="https://github.com/user-attachments/assets/3f97af56-0d23-4206-9f7d-3c26377fb07b" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Date_Dimension.png
 )
-  ![image](<img width="1058" height="169" alt="image" src="https://github.com/user-attachments/assets/bb0c29c8-5431-467b-9459-4465744847f5" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Facility Dimension .png
 )
-  ![image](<img width="1163" height="352" alt="image" src="https://github.com/user-attachments/assets/c737fd02-425a-448c-8f7d-b9900077f050" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Inspection Dimension.png
 )
-  ![image](<img width="1124" height="167" alt="image" src="https://github.com/user-attachments/assets/1f488a58-68a9-4bb4-91b5-0fb29cff4d60" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Location Dimension .png
 )
-  ![image](<img width="941" height="150" alt="image" src="https://github.com/user-attachments/assets/a7c3029e-3b72-4859-96cc-0075102bdcfc" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Violation Dimension .png
 )
-  ![image](<img width="965" height="698" alt="image" src="https://github.com/user-attachments/assets/a8a9475f-b7a1-45a9-89ea-934be14af7bb" />
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Fact.png
 )
   
 
@@ -117,10 +117,10 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Published dashboards to the cloud for accessibility and real-time monitoring.
 
   #### Power BI:
-  ![image](<img width="1163" height="642" alt="image" src="https://github.com/user-attachments/assets/ece04e80-1c61-4fc8-8a6d-5ea639f0cb5f" />
+  ![image](Screenshot 2025-07-11 125540.png
 )
 
-  ![image](<img width="1163" height="631" alt="image" src="https://github.com/user-attachments/assets/bff09c80-81c1-493b-b213-8833a9adf911" />
+  ![image](Screenshot 2025-07-11 125637.png
 )
 
 
