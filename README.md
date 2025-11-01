@@ -94,8 +94,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Loaded data into the dimensional model in MySQL using Talend.
 - Added audit columns to ensure data traceability.
 
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Date_Dimension.png
-)
+  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Date_Dimension.png)
   ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Facility Dimension .png
 )
   ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Inspection Dimension.png
