@@ -94,17 +94,18 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Loaded data into the dimensional model in MySQL using Talend.
 - Added audit columns to ensure data traceability.
 
-  ![Facility Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Facility%20Dimension%20.png)
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Facility Dimension .png
-)
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Inspection Dimension.png
-)
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Location Dimension .png
-)
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Violation Dimension .png
-)
-  ![image](Data_Loading into Facts and Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Fact.png
-)
+![Date Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Date_Dimension.png)
+
+![Facility Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Facility%20Dimension%20.png)
+
+![Inspection Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Inspection%20Dimension.png)
+
+![Location Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Location%20Dimension%20.png)
+
+![Violation Dimension](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Violation%20Dimension%20.png)
+
+![Fact](Data_Loading%20into%20Facts%20and%20Dimensions/RESTAURANT_AND_FOOD_INSPECTIONS/Fact.png)
+
   
 
 ### Step 7: Connecting to BI Tools
