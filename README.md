@@ -1,5 +1,5 @@
 # 🍽️ Food Inspection Intelligence Dashboard – A Data Engineering & BI Case Study
-[![Power BI](https://img.shields.io/badge/Power_BI-View_Live_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/reportEmbed?reportId=266b5bf1-36ea-461a-b384-355dc7086ce5&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7)
+
 
 **By Saipavan Katta**  
 Tools: Alteryx · Talend · MySQL · ER/Studio · Power BI · Tableau · SQL
@@ -15,6 +15,13 @@ The project simulates the real-world journey of a **data engineer + analyst**, i
 - Building an ETL pipeline
 - Designing a star schema
 - Delivering interactive dashboards to monitor risk, compliance, and violations
+ 
+  #### Power BI:
+  ![image](Dashboard_1.png
+)
+
+  ![image](Dashboard2.png
+)
 
 ---
 
@@ -116,12 +123,7 @@ Both datasets were profiled, cleaned, and transformed to create a **unified anal
 - Ensured Tableau and Power BI dashboards mirrored each other in design, enabling business partners to switch between platforms seamlessly based on their convenience.
 - Published dashboards to the cloud for accessibility and real-time monitoring.
 
-  #### Power BI:
-  ![image](Dashboard_1.png
-)
 
-  ![image](Dashboard2.png
-)
 
 
 
