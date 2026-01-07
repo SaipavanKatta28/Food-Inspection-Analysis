@@ -1,4 +1,5 @@
 # 🍽️ Food Inspection Intelligence Dashboard – A Data Engineering & BI Case Study
+[![Power BI](https://img.shields.io/badge/Power_BI-View_Live_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/reportEmbed?reportId=266b5bf1-36ea-461a-b384-355dc7086ce5&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7)
 
 **By Saipavan Katta**  
 Tools: Alteryx · Talend · MySQL · ER/Studio · Power BI · Tableau · SQL
